@@ -6,10 +6,10 @@ set_error_handler(function() {  });
 // Creates the MySQL class
 class MySQL {
     public $error = null;
-    private $server = "127.0.0.1"; // Change to domain name, e.g. www.iloveunicorns.com
-    private $username = "root"; // Change to the admins username of the server
-    private $password = "rootdbrace"; // Change to the admins password of the server
-    private $database = "posts"; // Change to the name of the database you would like to connect to on the server
+    private $server = ""; // Change to domain name, e.g. www.iloveunicorns.com
+    private $username = ""; // Change to the admins username of the server
+    private $password = ""; // Change to the admins password of the server
+    private $database = ""; // Change to the name of the database you would like to connect to on the server
 
     public $mySQL;
     private $isConnected = false;
